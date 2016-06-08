@@ -1,0 +1,2 @@
+class PunishmentController < ApplicationController
+end

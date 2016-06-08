@@ -1,0 +1,2 @@
+class OffenceController < ApplicationController
+end
