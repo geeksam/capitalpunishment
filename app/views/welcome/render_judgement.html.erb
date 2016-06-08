@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<style>
+body {
+  text-align: center;
+}
+div {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 20px;
+}
+.offence {
+  font-size: 2em;
+  font-weight: bold;
+    color: red;
+}
+.judgement {
+  font-size: 2em;
+  font-weight: bold;
+    color: blue;
+}
+</style>
+<div>
+  For the horrendous crime of:
+  <div class="offence"><%= @offence %></div>
+</div>
+<div>
+  You are hereby sentenced to <%= @period %> working on:
+  <div class="judgement"><%= @judgement %></div>
+</div>

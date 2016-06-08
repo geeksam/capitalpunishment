@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<style>
+body {
+  text-align: center;
+}
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+.input {
+  margin-bottom: 20px;
+}
+.input input {
+  font-size: 30px;
+    width: 80%;
+}
+.submit input {
+  font-size: 30px;
+}
+</style>
+
+<%= form_tag do %>
+  <h1>What's one thing you did today?</h1>
+  <div class="input">
+    <%= text_field_tag :offence %>
+  </div>
+  <div class="submit">
+    <%= submit_tag "JUDGE ME" %>
+  </div>
+<% end %>
